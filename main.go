@@ -70,7 +70,7 @@ func main() {
 		}
 
 		// B. Red
-		netList := scanNetwork("192.168.101.") // Ajusta tu red base aquí
+		netList := scanNetwork("192.168.18.") // Ajusta tu red base aquí
 
 		return c.JSON(fiber.Map{
 			"local":   localList,
